@@ -1,0 +1,48 @@
+body, html {
+
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    
+    background: url(Fotos/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#container{
+    
+    height: auto;
+    width: 65%;
+    background-color: rgba(245, 56, 78, 0.85);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+      
+}
+
+#container h1{
+ width: 100%;
+ background-color:rgba(245, 1, 56, 0.85);
+}
+
+#container ul{
+ width: 100%; 
+    position: fixed;
+    top: 0%;
+    width: 65%;
+    margin: auto;
+}
+
+
+
+
+
+
+
