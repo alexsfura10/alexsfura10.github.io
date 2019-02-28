@@ -16,8 +16,8 @@ body{
 #container{
     
     height: auto;
-    width: 65%;
-    background-color: rgba(245, 56, 78, 0.85);
+    width: 75%;
+    background-color: gray;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ body{
 
 #container h1{
  width: 100%;
- background-color:rgba(245, 1, 56, 0.85);
+ background-color: brown;
 }
 
 #container ul{
@@ -39,6 +39,16 @@ body{
     width: 65%;
     margin: auto;
 }
+
+#container div{
+    
+}
+
+#divd{
+ display: flex;  
+    justify-content: space-around;
+}
+
 
 
 
