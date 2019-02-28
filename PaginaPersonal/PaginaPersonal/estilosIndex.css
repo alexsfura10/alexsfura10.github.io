@@ -1,0 +1,58 @@
+body, html {
+
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    
+    background: url(Fotos/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#container{
+    
+    height: auto;
+    width: 75%;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+      
+}
+
+#container h1{
+ width: 100%;
+ background-color: brown;
+}
+
+#container ul{
+ width: 100%; 
+    position: fixed;
+    top: 0%;
+    width: 65%;
+    margin: auto;
+}
+
+#container div{
+    
+}
+
+#divd{
+ display: flex;  
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
