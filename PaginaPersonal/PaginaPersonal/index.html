@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ES">
     
     <head>
         <meta charset="utf-8">
@@ -7,7 +7,7 @@
         <title>Alex Sfura</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="estilosIndex.css">  
-        <style id="container">
+        <style>
         ul {
           list-style-type: none;
           margin: 0;
@@ -24,7 +24,7 @@
           display: block;
           color: white;
           text-align: center;
-          padding: 14px 16px;
+          padding: 10px 93px;
           text-decoration: none;
         }
 
@@ -33,41 +33,52 @@
         }
         </style>
      </head>
-        <body>
+        <body> 
         <div id="container">    
                 
                 <ul>
                   <li><a class="active" href="index.html">Inicio</a></li>
                   <li><a href="#demoreel">DemoReel</a></li>
-                  <li><a href="Contacto.html">Contacto</a></li>
-                  <li><a href="SobreMi.html">Sobre Mí</a></li>
+                  <li><a href="#bloquemodelado">Mdelado 3D</a></li>
+                  <li><a href=#sobremi>Sobre Mí</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
                 </ul>
-            <div>
-                <p>.</p>
+            <div id="bloqueAlex">
                 <h1>Alex Sfura</h1>
-                <h1>Demo Reel</h1>
-                <iframe id="demoreel" width="1000px" height="750px" src="https://www.youtube.com/embed/AZS5cgybKcI"></iframe>
+                <div id="submarino">
+                    <img id="dibujo1" alt="dibujo1" src="Fotos/alex_submarino2.jpg">
+                    <img id="dibujo2" alt="dibujo2" src="Fotos/alex_submarino2.jpg">
+                    <img id="dibujo3" alt="dibujo3" src="Fotos/alex_submarino2.jpg">
+                    
+                </div>
+                <h1 id="demoreel">Demo Reel</h1>
+                <iframe id="frame" src="https://www.youtube.com/embed/AZS5cgybKcI"></iframe>
             </div>
-            <div>
-                <h1>Sobre mi</h1>
-               <div id="divd">
+            <div id="bloquemodelado">
+                <h1 id="modelado3d">Modelado 3D</h1>
+                <div id="frame2" class="sketchfab-embed-wrapper">
+                    <iframe class="iframe" width="1000" height="750" src="https://sketchfab.com/models/8df59783872a4a93994cd7e6a08899b2/embed" allow="autoplay; fullscreen;vr"></iframe>
+                </div>      
+            </div>
+            <div id="bloquesobremi">
                 
-                <img src="Fotos/alex.jpg" height="50%" width="50%">
-                    <h2>Me llamo Alex y mi gran sueño es ser animador 3D. </h2>
+                <h1 id="sobremi">Sobre mi</h1>
+               <div id="divd">
+                 <div id="imagen">   
+                    <img id="fotoAlex" src="Fotos/alex.jpg" alt="alex">
+                 </div>
+                 <div id="descripcion">
+                        <h2>Me llamo Alex y mi gran sueño es ser animador 3D.Actualmente estoy estudiando un Cilco Formativo de Grado Superior de Animación 3D, Juegos y Entornos Interactivos. 
+                            Tengo conocimientos altos en Maya. El lema de mi vida: "No se puedes vencer a quien no se rinde."
+                       </h2>
+                 </div>
             </div>
             </div>
-            <div>
-                <h1>Contacto</h1>
+            <div id="contact">
+                <h1 id="contacto">Contacto</h1>
                 <h2>E-mail: alex.pato.max@gmail.com</h2>
-            </div>
-         
-
-
-                          
-            
-        </div>
-
-          
-            
+                <a href= "https://www.linkedin.com/in/alex-sfura-b02a32172"><img id="linkedin" src="Fotos/58e91afdeb97430e81906504.png" alt="likedin"/> </a>
+            </div>               
+        </div>  
         </body>
 </html>
